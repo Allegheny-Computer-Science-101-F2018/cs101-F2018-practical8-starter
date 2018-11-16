@@ -189,10 +189,8 @@ public class DoublyLinkedList<E> {
    * @return the removed element (or null if empty)
    */
   public E removeLast() {
-    if (isEmpty()) {
-      return null;
-    }
-    return remove(trailer.getPrev());
+    // TODO: Add a complete implementation of this method
+    return null;
   }
 
   /**
